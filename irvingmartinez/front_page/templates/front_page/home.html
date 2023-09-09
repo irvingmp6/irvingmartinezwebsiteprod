@@ -16,13 +16,20 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="myNafvbar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
         <li><a href="#about-me">ABOUT</a></li>
         <li><a href="#work-experience">EXPERIENCE</a></li>
         <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#resume">DOWNLOAD RESUME</a></li>
+        <li><a href="{% static 'front_page/media/Irving-Martinez-Resume.pdf' %}" download>DOWNLOAD RESUME</a></li>
       </ul>
     </div>
   </div>
@@ -42,12 +49,11 @@
 
 <!-- Container (The About Me Section) -->
 <div id="about-me" class="container">  
-  <p><b><span class="color-orange">#    </span>Hello World.</b></p>
-  <p><b><span class="color-orange">#    </span>My name is Irving Martinez.</b></p>
-  <p><b><span class="color-orange">#    </span>While you will most likely find me in a hoodie with a pot of coffee on my desk while my fingers pound away at the keyboard resuscitating a program back to life, I'm not your run-of-the-mill programmer. I come from humble beginnings.</b></p>
-  <p><b><span class="color-orange">#    </span>I learned how to code later in life. I wasn't some prodigy who grew up hacking computers since I was in the womb. No. That was never me. Hell, I didn't even know what directories were back in high school. It wasn't until my freshmen year when I was forced to take an introductory course to Java in my "mech" engineering program that I discovered programming. It was love at first compile. But, to be honest with you, I didn't really take much from that class other than getting really good at writing System.out.print("Hello World") since the professor bailed on us half of the time. It was an easy "A" so you know <em>we</em> didn't complain.</b></p>
-  <p><b><span class="color-orange">#    </span>Like most of us, I left college with a broken career compass not knowing what to do with my life. I ended up jumping around customer service jobs trying figure out life. But I would still code as a hobby. It made me feel better about not having a degree. I spent long nights and weekends, teaching myself everything there was to know about this world with a determination that I was going to become a "real" programmer some day.</b></p>
-  <p><b><span class="color-orange">#    </span>Years later, after dozens of personal projects, a personal website, and invaluable industry experience, I stand before you an accomplished Software Engineer.</b></p>
+  <p><b><span class="color-orange"># </span>Hello World.</b></p>
+  <p><b><span class="color-orange"># </span>My name is Irving Martinez.</b></p>
+  <p><b><span class="color-orange"># </span>I learned to code later in life. I wasn't some prodigy who grew up hacking computers since I was in the womb. No. That was never me. Hell, I didn't even know what directories were back in high school. It wasn't until my freshmen year when I was forced to take an introductory course to Java in my "mech" engineering program that I discovered programming. It was love at first compile. But, to be honest with you, I didn't really get much from that class other than getting really good at writing System.out.print("Hello World") since the professor bailed on us half of the time. It was an easy "A" so you know <em>we</em> didn't complain.</b></p>
+  <p><b><span class="color-orange"># </span>Like most of us, I left college with a broken career compass not knowing what to do with my life. I ended up jumping around customer service jobs trying figure out life. But I would still code as a hobby. It made me feel better about not having a degree. I spent long nights and weekends, teaching myself everything there was to know about this world with a determination that I was going to become a "real" programmer some day.</b></p>
+  <p><b><span class="color-orange"># </span>Years later, after dozens of personal projects, a personal website, and invaluable industry experience, I stand before you an accomplished Software Engineer. While these days, you will most likely find me in a hoodie with a pot of highly charged coffee on my desk, my fingers pounding away at the keyboard resuscitating a program back to life, I'm not your run-of-the-mill. I'm wise, not just clever. I'm reliable, not just capable. I am as creative and adaptive as I am formal and systematic, and I am constantly looking for the next challenge that'll teach me something else about technology and about myself.</b></p>
 </div>
 
 <!-- Container (Work Experience Section) -->
@@ -66,14 +72,14 @@
     <p>March 2019 &dash; May 2021</p>
     <li>Performed end-to-end testing verifying Python and .NET applications, web services, as well as MySQL, MS SQL, and IBM DB2/iSeries table updates</li>
     <li>Led coordination of testing efforts in staging and production environments by collaborating with stakeholders</li>
-    <li>Automated testing processes with Python/Selenium apps and bash scripts</li>
+    <li>Automated testing processes with Python/Selenium apps, the .NET/SpecFLow framework, and bash scripts</li>
 
     <h5><span class="color-orange"><b>Treasury Automation Specialist</b></span> @ Optum Financial</h5>
     <p>March 2017 &dash; March 2019</p>
     <li>Significantly reduced department labor costs by automating accounting operations</li>
     <li>Programmed software to balance MasterCard's data sets against internal iSeries database records</li>
     <li>Automated report generation in Tableau to aggregate data spanning different DBs and external files</li>
-    <li>Trained others on VBA to automate day-to-day operations and reduce hours of manual labor</li>
+    <li>Trained others on my scripts to automate day-to-day operations and reduce hours of manual labor</li>
   </div>
 </div>
 

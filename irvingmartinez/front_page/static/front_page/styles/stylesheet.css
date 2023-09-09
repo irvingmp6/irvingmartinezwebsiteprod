@@ -23,6 +23,10 @@
       margin-bottom: 20px;
     }
   }
+
+  .carousel-caption{
+    padding-bottom: 15%;
+  }
   
   /* Style the counter cards */
   .card {
