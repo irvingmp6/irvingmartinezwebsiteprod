@@ -36,32 +36,36 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  img {
-    border-radius: 5px 5px 0 0;
-  }
-  
   .card-container {
     padding: 2px 16px;
+  }
+
+  .grey-filter{
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(100%); /* make all photos black and white */ 
+
   }
 
   body {
     font: 400 15px/1.8 consolas, monospace;
     color: #777;
   }
-  h3, h4 {
-    margin: 10px 0 30px 0;
-    letter-spacing: 10px;      
-    font-size: 20px;
-    color: #111;
-  }
+  .color-green{
+    color:limegreen;
+  }  
   .color-yellow{
     color:yellow;
   }
-  .color-green{
-    color:limegreen;
-  }
   .color-black{
     color:#2d2d30;
+  }
+  .color-white{
+    color:#f1f1f1;
+  }
+  .color-orange{
+    /* color:orange; */
+    color:#ff7415;
+
   }
   .container {
     padding: 80px 120px;
@@ -77,14 +81,10 @@
     border-color: #f1f1f1;
   }
   .carousel-inner {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(100%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
-  .carousel-caption h3 {
-    color: #fff !important;
-  }
+  
   .bg-1 {
     background: #2d2d30;
     color: #fbfaf5;
